@@ -8,10 +8,22 @@ using namespace std;
 
 int main()
 {
+
+	//Listing 4.1 on page 70
+
 	int a=0, b=0, x=0, y=35;
 	cout << "a: " << a << "\tb: " << b;
 	cout << "\tx: " << x << "\ty: " << y;
 	cin.get();
+
+	a = 9;
+	b = 7;
+	x = y = a + b;
+
+	cout << "a: " << a << "\tb: " << b;
+	cout << "\tx: " << x << "\ty: " << y;
+	cin.get();
+
     return 0;
 }
 
