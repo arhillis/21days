@@ -24,6 +24,23 @@ int main()
 	cout << "\tx: " << x << "\ty: " << y;
 	cin.get();
 
+
+	//Listing 4.2 on page 72
+
+	unsigned int difference;
+	unsigned int bigNumber = 100;
+	unsigned int smallNumber = 25;
+
+	cout << "\nBig number: " << bigNumber << endl;
+	cout << "Small number: " << smallNumber << endl;
+	
+	difference = bigNumber - smallNumber;
+	cout << "Big number - small number: " << difference << endl;
+
+	difference = smallNumber - bigNumber;
+	cout << "Small number - big number: " << difference << endl;
+
+	cin.get();
     return 0;
 }
 
